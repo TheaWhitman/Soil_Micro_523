@@ -1,5 +1,8 @@
 ## Statistics ##
 
+# We will be continuing with the samples from the QIIME Atacama soils tutorial
+# https://docs.qiime2.org/2017.2/tutorials/atacama-soils/
+
 # Two weeks ago, you looked at the community composition of the tutorial samples
 # Last week, we plotted ordinations for those samples.
 # However, we want to know, are the differences between communities significant?
