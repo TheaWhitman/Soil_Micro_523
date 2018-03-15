@@ -110,7 +110,7 @@ colnames(sample_data(ps.cutoff))
 # Now we can group the bar charts we made above by different categories
 # To do this, we add the facet_grid command to our plot_bar command:
 
-plot_bar(ps.norm, fill="Phylum", title="Yassss") + facet_grid(~Vegetation, scale="free") + geom_bar(aes(color=Phylum, fill=Phylum), stat="identity", position="stack")
+plot_bar(ps.norm, fill="Phylum") + facet_grid(~Vegetation, scale="free") + geom_bar(aes(color=Phylum, fill=Phylum), stat="identity", position="stack")
 # Runs the plot_bar command, but grouped by Vegetation
 
 # You can group by different variables.
